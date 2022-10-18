@@ -25,7 +25,7 @@ The front is make with reactJs ans material UI
 
 The back is make js and the express library
 
-And we used mysql to store data
+And I used mysql to store data
 
 - See Documentation here ([documentation](./back/README.md))
 
