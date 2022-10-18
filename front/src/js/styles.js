@@ -1,0 +1,87 @@
+import colors from './colors'
+
+const defaultStyles = {
+  panel: {
+    background: colors.white,
+    boxShadow: '2px 2px 15px rgba(0, 0, 0, 0.15)',
+    borderRadius: 15,
+    padding: 30,
+  },
+  mainTitle: {
+    fontFamily: '"Poppins", sans-serif',
+    fontWeight: 'bold',
+    fontSize: 30,
+    lineHeight: '45px',
+    color: '#624F69',
+    marginBottom: 20,
+    alignItems: 'center',
+    textAlign: 'center',
+    width: '100%',
+  },
+  panelTitle: {
+    fontFamily: '"Poppins", sans-serif',
+    fontWeight: 'bold',
+    fontSize: 18,
+    lineHeight: '27px',
+    color: '#333333',
+    marginBottom: 40,
+    display: 'flex',
+    alignItems: 'center',
+  },
+  buttonBlue: {
+    borderRadius: 50,
+    textTransform: 'none',
+    fontFamily: '"Poppins", sans-serif',
+    fontWeight: 600,
+    fontSize: 16,
+    color: 'white',
+    background: 'linear-gradient(95.38deg, ' + colors.lightblue + ' 5.21%, ' + colors.blue + ' 68.48%)',
+  },
+  buttonWhite: {
+    border: '1px solid ' + colors.blue,
+    background: colors.white,
+    borderRadius: 50,
+    color: colors.blue,
+    fontFamily: '"Poppins", sans-serif',
+    fontWeight: 500,
+    fontSize: 14,
+    lineHeight: '21px',
+    width: '100%',
+    padding: 10,
+    cursor: 'pointer',
+    outline: 'none',
+    textTransform: 'none',
+  },
+  formControl: {
+    width: '100%',
+  },
+  formLabel: {
+    textTransform: 'uppercase',
+    color: colors.darkgray,
+    fontSize: 12,
+    lineHeight: '18px',
+    fontWeight: 'bold',
+  },
+  formInput: {
+    height: 45,
+    borderRadius: 25,
+    paddingLeft: 20,
+    paddingRight: 20,
+    width: '100%',
+    border: '0.5px solid ' + colors.lightgray,
+    color: colors.black,
+    marginTop: '5px !important',
+  },
+  formInputError: {
+    border: '1.5px solid ' + colors.red,
+  },
+  error: {
+    color: colors.red,
+    fontSize: '0.9em',
+    fontWeight: 'bold',
+    fontFamily: '"Poppins", sans-serif',
+    marginTop: 6,
+  },
+}
+
+export default defaultStyles
